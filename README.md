@@ -39,7 +39,7 @@ Needed software/platform depend on the programming language version that will be
 ## Executing console app
 **C#**
 - `cd src/csharp/`
-- `dotnet run --project <project_name>`
+- `dotnet run --project PolyglotRegistration/PolyglotRegistration.csproj`
 
 **Ruby**
 - `cd src/ruby/`
