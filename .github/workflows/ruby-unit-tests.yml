@@ -2,7 +2,8 @@ name: ruby unit tests
 
 on:
   pull_request:
-    branches: [ ruby ]
+    paths: [ 'src/ruby/**' ]
+    branches: [ dev, main ]
 
 jobs:
   test:
@@ -16,4 +17,6 @@ jobs:
       with:
         ruby-version: 2.7
     - name: Run tests
-      run: rake test
+      run: |
+        cd src/ruby/
+        rake test

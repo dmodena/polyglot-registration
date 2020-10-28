@@ -2,7 +2,8 @@ name: csharp unit tests
 
 on:
   pull_request:
-    branches: [ csharp ]
+    paths: [ 'src/csharp/**' ]
+    branches: [ dev, main ]
 
 jobs:
   build:
@@ -16,8 +17,14 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore
+      run: |
+        cd src/csharp/
+        dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: |
+        cd src/csharp/
+        dotnet build --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: |
+        cd src/csharp/
+        dotnet test --no-restore --verbosity normal

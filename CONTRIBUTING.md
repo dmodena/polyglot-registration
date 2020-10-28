@@ -17,9 +17,5 @@ Follow steps below to add your contribution:
 5. Make code changes
 6. Ensure all tests pass. Please refer to [README.md](https://github.com/dmodena/polyglot-registration/blob/main/README.md) for more details
 7. Commit your changes and push your code
-8. Create pull request to correct branch
-    - for C# code changes, open PR to **csharp** branch
-    - for Python code changes, open PR to **python** branch
-    - for ruby code changes, open PR to **ruby** branch
-    - for any other changes, open PR to **dev** branch
+8. Create pull request to **dev** branch
 9. Feel free to star this project ; )

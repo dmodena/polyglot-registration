@@ -2,7 +2,8 @@ name: python unit tests
 
 on:
   pull_request:
-    branches: [ python ]
+    paths: [ 'src/python/**' ]
+    branches: [ dev, main ]
 
 jobs:
   build:
