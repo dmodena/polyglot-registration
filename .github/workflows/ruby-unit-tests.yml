@@ -1,0 +1,19 @@
+name: ruby unit tests
+
+on:
+  pull_request:
+    branches: [ ruby ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+    - name: Run tests
+      run: rake test
