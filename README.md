@@ -23,17 +23,23 @@ Polyglot Registration
 
 Currently supported languages are:
 - C#
+- Python
 - Ruby
 
 ## Prerequisites
 Needed software/platform depend on the programming language version that will be run:
 - dotnet core 3.1
+- python 3.8
 - ruby 2.7
 
 ## Running tests
 **C#**
 - `cd src/csharp/`
 - `dotnet test`
+
+**Python**
+- `cd src/python/validators/`
+- `python3 -m unittest`
 
 **Ruby**
 - `cd src/ruby/`
@@ -43,6 +49,10 @@ Needed software/platform depend on the programming language version that will be
 **C#**
 - `cd src/csharp/`
 - `dotnet run --project PolyglotRegistration/PolyglotRegistration.csproj`
+
+**Python**
+- `cd src/python/`
+- `python3 polyglot_registration.py`
 
 **Ruby**
 - `cd src/ruby/`

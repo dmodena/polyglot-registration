@@ -5,6 +5,7 @@ Contributing
 Please install necessary software/platform needed for running and testing your code:
 
 - For C#: dotnet core 3.1
+- For Python: python 3.8
 - For Ruby: ruby 2.7
 
 ## Steps
@@ -18,6 +19,7 @@ Follow steps below to add your contribution:
 7. Commit your changes and push your code
 8. Create pull request to correct branch
     - for C# code changes, open PR to **csharp** branch
+    - for Python code changes, open PR to **python** branch
     - for ruby code changes, open PR to **ruby** branch
     - for any other changes, open PR to **dev** branch
 9. Feel free to star this project ; )
