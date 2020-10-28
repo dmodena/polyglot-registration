@@ -23,6 +23,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SamudraThio",
+      "name": "SamudraThio",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/68200757?v=4",
+      "profile": "https://www.linkedin.com/in/samudrathio/",
+      "contributions": [
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
