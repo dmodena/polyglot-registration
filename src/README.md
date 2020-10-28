@@ -23,9 +23,9 @@ Below are the rules for each validation.
     - all other letters should be lower case
 
 ### Validating Document
-- document should have only numbers, dots and dashes
-- it should have the following pattern: xxx.xxx.xxx-xx where x is a digit (0-9)
-- the numbers after the dash are used for additional validation, with the following rules:
+    - document should have only numbers, dots and dashes
+    - it should have the following pattern: xxx.xxx.xxx-xx where x is a digit (0-9)
+    - the numbers after the dash are used for additional validation, with the following rules:
     - the first digit should be equals to the sum of first 9 digits mod 10
         - ex: for document 123.456.789-xx -> (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) mod 10 = 5  
           therefore first digit after dash is 5 -> 123.456.789-5x
