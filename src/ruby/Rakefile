@@ -1,0 +1,14 @@
+require 'rake/testtask'
+
+task :default => :run
+
+task :run do
+  ruby "app/polyglot_registration.rb"
+end
+
+task :test do
+  Rake::TestTask.new(:test) do |t|
+    t.libs << 'test'
+    t.pattern = 'test/test_*.rb'
+  end
+end
