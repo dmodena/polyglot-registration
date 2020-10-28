@@ -3,7 +3,6 @@ require_relative './validators/email_validator.rb'
 require_relative './validators/name_validator.rb'
 
 def main
-  name_validator = NameValidator.new
   document_validator = DocumentValidator.new
   email_validator = EmailValidator.new
 
@@ -13,7 +12,7 @@ def main
     print "Name: "
     name = gets.chomp
 
-    break if name_validator.is_valid? name
+    break if NameValidator.new(name).is_valid?
     puts "Name is invalid."
   end
 

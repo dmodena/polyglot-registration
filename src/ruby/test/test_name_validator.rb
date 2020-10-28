@@ -2,10 +2,6 @@ require "minitest/autorun"
 require_relative "../app/validators/name_validator.rb"
 
 class TestNameValidator < Minitest::Test
-  def setup
-    @name_validator = NameValidator.new
-  end
-
   def test_validates_name
     test_data = [
       { :name => "Carl Mass", :expected => true },
@@ -22,7 +18,7 @@ class TestNameValidator < Minitest::Test
     ]
 
     test_data.each do |item|
-      assert_equal(item[:expected], @name_validator.is_valid?(item[:name]))
+      assert_equal(item[:expected], NameValidator.new(item[:name]).is_valid?, "#{item[:name]} validation failed")
     end
   end
 end
