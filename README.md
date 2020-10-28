@@ -1,7 +1,7 @@
 Polyglot Registration
 ===
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ```
@@ -72,6 +72,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/dmodena"><img src="https://avatars3.githubusercontent.com/u/11446011?v=4" width="100px;" alt=""/><br /><sub><b>Douglas Modena</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=dmodena" title="Code">💻</a> <a href="https://github.com/dmodena/polyglot-registration/commits?author=dmodena" title="Documentation">📖</a></td>
     <td align="center"><a href="https://cadu.dev"><img src="https://avatars3.githubusercontent.com/u/771411?v=4" width="100px;" alt=""/><br /><sub><b>Cadu Ribeiro</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=duduribeiro" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/samudrathio/"><img src="https://avatars1.githubusercontent.com/u/68200757?v=4" width="100px;" alt=""/><br /><sub><b>SamudraThio</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=SamudraThio" title="Tests">⚠️</a> <a href="https://github.com/dmodena/polyglot-registration/commits?author=SamudraThio" title="Code">💻</a></td>
   </tr>
 </table>
 
