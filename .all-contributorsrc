@@ -33,6 +33,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "phoffmeister",
+      "name": "Pierre Hoffmeister",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1093398?v=4",
+      "profile": "https://github.com/phoffmeister",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
