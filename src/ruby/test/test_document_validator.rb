@@ -2,10 +2,6 @@ require "minitest/autorun"
 require_relative "../app/validators/document_validator.rb"
 
 class TestDocumentValidator < Minitest::Test
-  def setup
-    @document_validator = DocumentValidator.new
-  end
-
   def test_validates_document
     test_data = [
       { :document => "123.456.789-52", :expected => true },
@@ -22,7 +18,7 @@ class TestDocumentValidator < Minitest::Test
     ]
 
     test_data.each do |item|
-      assert_equal(item[:expected], @document_validator.is_valid?(item[:document]))
+      assert_equal(item[:expected], DocumentValidator.new(item[:document]).is_valid?, "#{item[:document]} validation failed")
     end
   end
 end

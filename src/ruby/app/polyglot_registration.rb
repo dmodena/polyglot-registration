@@ -3,9 +3,6 @@ require_relative './validators/email_validator.rb'
 require_relative './validators/name_validator.rb'
 
 def main
-  document_validator = DocumentValidator.new
-  email_validator = EmailValidator.new
-
   puts "Please insert required data below."
 
   loop do
@@ -20,7 +17,7 @@ def main
     print "Document: "
     document = gets.chomp
 
-    break if document_validator.is_valid? document
+    break if DocumentValidator.new(document).is_valid?
     puts "Document is invalid."
   end
 
@@ -28,7 +25,7 @@ def main
     print "Email: "
     email = gets.chomp
 
-    break if email_validator.is_valid? email
+    break if EmailValidator.new(email).is_valid?
     puts "Email is invalid."
   end
 

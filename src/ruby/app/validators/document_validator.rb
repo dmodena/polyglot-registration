@@ -1,5 +1,9 @@
 class DocumentValidator
-  def is_valid?(document)
+  def initialize(document)
+    @document = document
+  end
+
+  def is_valid?
     true
   end
 end
