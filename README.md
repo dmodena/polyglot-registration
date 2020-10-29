@@ -1,7 +1,7 @@
 Polyglot Registration
 ===
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ```
@@ -77,6 +77,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/yuanLeeMidori"><img src="https://avatars1.githubusercontent.com/u/50813726?v=4" width="100px;" alt=""/><br /><sub><b>Yuan-Hsi Lee</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=yuanLeeMidori" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/lcpizzo"><img src="https://avatars3.githubusercontent.com/u/62020365?v=4" width="100px;" alt=""/><br /><sub><b>lcpizzo</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=lcpizzo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/HyperTHD"><img src="https://avatars0.githubusercontent.com/u/16841702?v=4" width="100px;" alt=""/><br /><sub><b>Abdulbasid Guled</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=HyperTHD" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://shresthalucky.github.io/"><img src="https://avatars2.githubusercontent.com/u/4192121?v=4" width="100px;" alt=""/><br /><sub><b>Lucky Shrestha</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=shresthalucky" title="Code">💻</a></td>
   </tr>
 </table>
 
