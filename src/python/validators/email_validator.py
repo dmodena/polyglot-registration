@@ -1,20 +1,20 @@
+import re
+
+
 class EmailValidator:
+
+    pattern = r"^[a-z0-9][a-z0-9.]*@[a-z0-9]*\.?[a-z0-9.]*[a-z0-9]$"
+
     def is_valid(self, email):
-        if email.count("@") != 1:
-            return False
+        """Returns True for valid email and False for invalid email
 
-        if email[0] == "." or email[-1] == ".":
-            return False
+        Args:
+            email (str): Email string
 
-        if email[-1] == "@":
-            return False
+        Returns:
+            bool: Email validity
+        """
 
-        if not email.islower():
-            return False
-
-        for c in email:
-            if not (c.isalpha() or c.isdigit() or c == "." or c == "@"):
-                return False
-
-        return True
-
+        if re.match(EmailValidator.pattern, email):
+            return True
+        return False
