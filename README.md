@@ -80,7 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://shresthalucky.github.io/"><img src="https://avatars2.githubusercontent.com/u/4192121?v=4" width="100px;" alt=""/><br /><sub><b>Lucky Shrestha</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=shresthalucky" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/pk-95"><img src="https://avatars2.githubusercontent.com/u/60467716?v=4" width="100px;" alt=""/><br /><sub><b>pk-95</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=pk-95" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/pk-95"><img src="https://avatars2.githubusercontent.com/u/60467716?v=4" width="100px;" alt=""/><br /><sub><b>pk-95</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=pk-95" title="Code">💻</a> <a href="https://github.com/dmodena/polyglot-registration/commits?author=pk-95" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/joll05"><img src="https://avatars0.githubusercontent.com/u/44553291?v=4" width="100px;" alt=""/><br /><sub><b>joll05</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=joll05" title="Code">💻</a></td>
     <td align="center"><a href="https://dev.to/sharkham"><img src="https://avatars0.githubusercontent.com/u/49769979?v=4" width="100px;" alt=""/><br /><sub><b>Sam</b></sub></a><br /><a href="https://github.com/dmodena/polyglot-registration/commits?author=sharkham" title="Code">💻</a></td>
   </tr>
